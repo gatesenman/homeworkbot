@@ -17,22 +17,20 @@
 
 ## 从源码运行
 
-源码在 `src/HomeworkBot-3.3.0/`。本仓库不包含安装包。
+源码在仓库根目录。本仓库不包含安装包。
 
 ```bash
-cd src/HomeworkBot-3.3.0
 # Windows 可双击 run.bat（首次自动安装依赖）
 # 或：
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 .venv\Scripts\python main.py
 ```
-
 还需自行准备：QQ 小号 + NapCat，以及企业微信群机器人 Webhook。配置步骤见该目录 README（请忽略其中未包含在本仓库的安装包文件名）。
 
 ## 文档
 
-- [源码 README](src/HomeworkBot-3.3.0/README.md)
+- [源码 README](README.original.md)
 
 ---
 
@@ -57,20 +55,18 @@ python -m venv .venv
 
 ## Getting started
 
-Source is under `src/HomeworkBot-3.3.0/`. This repository does not include installers.
+Source is at the repository root. This repository does not include installers.
 
 ```bash
-cd src/HomeworkBot-3.3.0
 # On Windows you can double-click run.bat (it installs dependencies on first run)
 # Or:
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 .venv\Scripts\python main.py
 ```
-
 You also need a secondary QQ account with NapCat, and a WeCom group webhook. Setup steps are in that README; ignore installer filenames that are not in this repository.
 
 ## Documentation
 
-- [源码 README](src/HomeworkBot-3.3.0/README.md)
+- [源码 README](README.original.md)
 

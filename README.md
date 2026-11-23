@@ -9,6 +9,19 @@
 - 完全后台运行：NapCat 登录 QQ 小号，推送走企业微信 Webhook。
 - 支持反向 / 正向 WebSocket 或 HTTP 上报与 NapCat 对接，并可在应用内测试连接。
 
+## 下载
+
+本仓库目前没有已发布的 GitHub Release 安装包。请从源码运行。GitHub 自动生成的 Source code zip/tar 不算安装包。
+
+## 界面截图
+
+仓库里目前还没有已提交的真实产品界面截图（图标、logo 或品牌图不算）。请不要把下列预留路径当成已经存在的图片去引用（避免破链）。待在真实运行窗口中截取后放入：
+
+- `docs/screenshots/01-workbench.png`
+- `docs/screenshots/02-main-or-result.png`
+
+截图说明必须写明操作系统、软件版本、是否示例/演示数据，以及是否在 Windows 安装后截取。
+
 ## 技术栈
 
 - Python 3.9+
@@ -52,6 +65,19 @@ python -m venv .venv
 - Optional LLM (for example DeepSeek or Qwen) to normalize assignments; built-in rules are used when no key is configured.
 - Fully headless: NapCat logs in with a secondary QQ account; delivery uses a WeCom webhook.
 - Connect to NapCat over reverse or forward WebSocket or HTTP postback, and test the link in the app.
+
+## Downloads
+
+This repository has no published GitHub Release installer. Run it from source. The automatic Source code zip/tar from GitHub is not an installer.
+
+## Screenshots
+
+No real product-window screenshot has been committed yet (icons, logos, and brand art do not count). Do not add markdown image links to the reserved paths below until the files exist (that would be a broken link). After a live capture, place:
+
+- `docs/screenshots/01-workbench.png`
+- `docs/screenshots/02-main-or-result.png`
+
+Captions must state the OS, version, whether the data is sample/demo, and whether the shot was taken after a Windows install.
 
 ## Tech stack
 
